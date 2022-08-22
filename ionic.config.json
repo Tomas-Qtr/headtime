@@ -1,0 +1,7 @@
+{
+  "name": "headtime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
