@@ -1,1 +1,17 @@
+:root {
+	--ion-color-red: #cf0707;
+	--ion-color-red-rgb: 207,7,7;
+	--ion-color-red-contrast: #ffffff;
+	--ion-color-red-contrast-rgb: 255,255,255;
+	--ion-color-red-shade: #b60606;
+	--ion-color-red-tint: #d42020;
+}
 
+.ion-color-red {
+	
+    --ion-tab-bar-color-selected:var(--ion-color-red)
+}
+ion-badge {
+    
+    margin-left: 2px;
+  }

@@ -1,17 +1,48 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+ <app-menu></app-menu>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card class="coworker-card">
+    <img src="https://ps.w.org/profile-builder/assets/icon-256x256.png?rev=2257592" class="header-img"/>
+    <ion-card-content>
+      <ion-list lines="none">
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="https://imagenes.elpais.com/resizer/6dSTaEilAhEEE51wHuMw3i8Gp98=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/6DCGKM52CCEDT7ST6EGGH3F4YY.jpg"/>
+          </ion-avatar>
+          <ion-label>
+            <h3>Wlather White</h3>
+            <p>Repartidor</p>
+          </ion-label>
+        </ion-item>
+        
+        
+        <ion-item>
+          <ion-icon name="call" slot="start"></ion-icon>
+          <ion-label>
+            <h3>(299) 636-2305</h3>
+            <p>Telefono</p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="mail" slot="start"></ion-icon>
+          <ion-label>
+            <h3>mr.heisenber@gmail.com</h3>
+            <p>Email de Trabajo</p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="car-outline" slot="start"></ion-icon>
+          <ion-label>
+            <h3>Motocicleta</h3>
+            <p>Kawasaki z400</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="full" color="dark">Configurar</ion-button>
 </ion-content>

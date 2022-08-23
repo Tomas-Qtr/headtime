@@ -1,17 +1,83 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+  <app-menu></app-menu>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="label">
+    <ion-label>
+      Pedidos
+    </ion-label>
+    <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://saboresmendoza.com/wp-content/uploads/2019/09/pizza-de-muzzarella-sabores.jpg" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>Pizza Muzzarella</h3>
+       <p>Manuel Estrada 2026</p>
+     </ion-label>
+   </ion-item>
+   <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://www.goya.com/media/7087/ropa-vieja-empanadas.jpg?quality=80" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>12dc Empanadas</h3>
+       <p>menguelle 2029</p>
+     </ion-label>
+   </ion-item>
+   <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://easyrecetas.com/wp-content/uploads/2020/05/Receta-de-Hamburguesas-Barbacoa.jpg" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>Hamburguesa</h3>
+       <p>Peru 3456</p>
+     </ion-label>
+   </ion-item>
+   <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://static4.abc.es/media/bienestar/2021/06/18/sushi-casero-1-kQKB--1200x630@abc.jpeg" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>Sushi</h3>
+       <p>España 4567</p>
+     </ion-label>
+   </ion-item>
+   
+  </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+
+  <div class="label">
+    <ion-label class="label">
+      Entregados
+    </ion-label>
+    <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://www.clarin.com/img/2021/07/26/el-lomito-uno-de-los___u-aUfp64d_640x361__1.jpg" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>sandwich lomo</h3>
+       <p>Roca 379</p>
+     </ion-label>
+    </ion-item>
+    <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://static4.abc.es/media/bienestar/2021/06/18/sushi-casero-1-kQKB--1200x630@abc.jpeg" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>Sushi</h3>
+       <p>av.Allem 679</p>
+     </ion-label>
+    </ion-item>
+    <ion-item>
+     <ion-thumbnail slot="start">
+       <img src="https://datachaco.com/download/multimedia.grande.b9a5ce5606587082.7061706173206672697461735f5f6772616e64652e676966.gif" />
+     </ion-thumbnail>
+     <ion-label>
+       <h3>Papas Fritas</h3>
+       <p>Esmeralda 1845</p>
+     </ion-label>
+    </ion-item>
+  </div>
+
 </ion-content>
